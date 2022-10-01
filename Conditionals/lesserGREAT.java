@@ -16,12 +16,12 @@ class lesserGREAT{
 
         }
         // The less than operator <
-        if (elephant < cat){
+        if (cat < elephant){
             System.out.println("The cat weigh less than the elephant.");
 
         }
-        // The is_equal comparitor ==
-        if (elephant == cat){
+        // The is_equal comparitor ==. Using ! not to display the message.
+        if (elephant != cat){
             System.out.println("The elephant and the car are not equal in weight.");
 
         }
